@@ -1,0 +1,31 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-07-16 00:16:15.505  INFO 5051 --- [           main] mvc.Application                          : Starting Application v1.0 on ip-10-255-255-120.us-west-2.compute.internal with PID 5051 (/app/front-end-wrapper/target/front-end-wrapper-1.0.war started by root in /app/front-end-wrapper)
+2019-07-16 00:16:15.520  INFO 5051 --- [           main] mvc.Application                          : No active profile set, falling back to default profiles: default
+2019-07-16 00:16:19.226  INFO 5051 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2019-07-16 00:16:19.324 ERROR 5051 --- [           main] o.a.coyote.http11.Http11NioProtocol      : The upgrade handler [org.apache.coyote.http2.Http2Protocol] for [h2] only supports upgrade via ALPN but has been configured for the ["https-jsse-nio-443"] connector that does not support ALPN.
+2019-07-16 00:16:19.368  INFO 5051 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-16 00:16:19.374  INFO 5051 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-07-16 00:16:19.402  INFO 5051 --- [           main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-07-16 00:16:23.540  INFO 5051 --- [           main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-16 00:16:23.986  INFO 5051 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-16 00:16:23.987  INFO 5051 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8309 ms
+2019-07-16 00:16:24.712  INFO 5051 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-16 00:16:24.980  INFO 5051 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-07-16 00:16:25.347  INFO 5051 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f0fd830d-dc6a-4918-8fc6-dee2967f3fa3
+
+2019-07-16 00:16:25.572  INFO 5051 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8c3b9d, org.springframework.security.web.context.SecurityContextPersistenceFilter@609cd4d8, org.springframework.security.web.header.HeaderWriterFilter@305b7c14, org.springframework.security.web.authentication.logout.LogoutFilter@5fbe4146, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d8704ef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c3d9b6b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c39bec8, org.springframework.security.web.session.SessionManagementFilter@66d18979, org.springframework.security.web.access.ExceptionTranslationFilter@4988d8b8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@385e9564]
+2019-07-16 00:16:26.475  INFO 5051 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2019-07-16 00:16:26.485  INFO 5051 --- [           main] mvc.Application                          : Started Application in 12.17 seconds (JVM running for 13.176)
+2019-07-16 00:16:29.631  INFO 5051 --- [-nio-443-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-16 00:16:29.631  INFO 5051 --- [-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-16 00:16:29.650  INFO 5051 --- [-nio-443-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
